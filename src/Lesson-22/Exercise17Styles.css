@@ -1,0 +1,18 @@
+.bodyE17 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formMain {
+  width: 25vw;
+  padding: 25px;
+  background-color: blanchedalmond;
+
+  border-radius: 15px;
+}
+
+.inputE17 {
+  margin-top: 25px;
+}

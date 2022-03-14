@@ -1,0 +1,57 @@
+#testID {
+  color: green;
+}
+
+.testClass {
+  color: hotpink;
+  background-color: darksalmon;
+}
+
+.app-container {
+  display: flex;
+}
+
+.sidenav {
+  margin: 0em 2em;
+  flex-basis: 15%;
+  height: 90vh;
+  padding: 2em;
+  background-color: wheat;
+  border-radius: 15px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+}
+
+.sidenav li {
+  padding: 1rem;
+  font-size: 1.5em;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidenav a:hover {
+  color: pink;
+}
+
+.sidenav .sidenav ul li {
+  text-decoration: none;
+}
+
+.content {
+  flex-basis: 85%;
+  text-align: center;
+  height: 90vh;
+  background-color: tomato;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.activeLink {
+  font-size: 2rem;
+  color: tomato !important;
+}

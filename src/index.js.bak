@@ -1,0 +1,47 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+import 'primereact/resources/themes/lara-light-indigo/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
+// import App from './App';
+// import FirstApp from './Lesson-21/FirstApp';
+// import SecondApp from './Lesson-21/SecondApp';
+// import Exercise16 from './Lesson-21/Exercise16';
+// import FirstForm from './Lesson-22/FirstForm';
+// import PropsParent from './Lesson-23/PropsParent';
+// import StateParent from './Lesson-23/StateParent';
+// import ParentComponent from './Lesson-25/ClassProject/Parent_Component';
+// import Exercise17 from './Lesson-22/Exercise17';
+// import Exercise18 from './Lesson-23/Exercise18/Ex18_Parent';
+// import Exercise19 from './Lesson-23/Exercise19/Ex19_Parent';
+import StatePatternParent from './Lesson-24/StatePatternParent';
+
+ReactDOM.render(
+  <React.StrictMode>
+    {/* Lesson-21 */}
+    {/* <App /> */}
+    {/* <FirstApp /> */}
+    {/* <SecondApp /> */}
+    {/* <Exercise16 /> */}
+
+    {/* Lesson-22 */}
+    {/* <FirstForm /> */}
+    {/* <Exercise17 /> */}
+
+    {/* Lesson-23 */}
+    {/* <PropsParent /> */}
+    {/* <StateParent /> */}
+    {/* <Exercise18 /> */}
+    {/* <Exercise19 /> */}
+
+    {/* Lesson-24 */}
+    <StatePatternParent />
+
+    {/* Lesson-25 */}
+    {/* <ParentComponent /> */}
+  </React.StrictMode>,
+  document.getElementById('root')
+);
